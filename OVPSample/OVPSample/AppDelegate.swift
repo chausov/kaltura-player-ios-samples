@@ -16,7 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        KalturaOVPPlayer.setup(partnerId: 2222401)
+//        KalturaOVPPlayer.setup(partnerId: 2222401)
+        
+        KalturaOVPPlayer.setup(partnerId: 6265,
+                                       serverURL: "http://qa-apache-php7.dev.kaltura.com",
+                                       referrer: nil)
         return true
     }
 

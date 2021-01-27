@@ -28,4 +28,9 @@ target 'OVPSample' do
 #  pod 'KalturaPlayer/Offline_OVP', :git => 'https://github.com/kaltura/kaltura-player-ios.git', :branch => 'develop'
 #  pod 'KalturaPlayer/Offline_OVP', :path => '../../kaltura-player-ios'
 
+  #pod 'PlayKitProviders', :path => '../../playkit-ios-providers'
+  #pod 'KalturaNetKit', :path => '../../netkit-ios'
+  pod 'PlayKitProviders', :git => 'https://github.com/chausov/playkit-ios-providers', :branch => 'FEC-10638'
+  pod 'KalturaNetKit', :git => 'https://github.com/chausov/netkit-ios.git', :branch => 'FEC-10638'
+  
 end
