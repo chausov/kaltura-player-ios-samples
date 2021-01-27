@@ -11,6 +11,17 @@ extension VideoData {
     static func getBasicVideos() -> [VideoData] {
         var videos: [VideoData] = []
         
+        videos.append(VideoData(title: "2106873 TrickPlay enabled, autoPlay-true, preload-true",
+                                player: PlayerData(autoPlay: true,
+                                                   preload: true),
+                                media: OTTMedia(assetId: "2106873",
+                                                assetType: .media,
+                                                assetReferenceType: .media,
+                                                playbackContextType: .playback,
+                                                formats: ["STB_Devices_Main_HLS"],
+                                                networkProtocol: "https",
+                                                urlType: "DIRECT")))
+        
         videos.append(VideoData(title: "548575, autoPlay-true, preload-true",
                                 player: PlayerData(autoPlay: true,
                                                    preload: true),
